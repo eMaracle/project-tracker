@@ -1,36 +1,16 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+.bowerrc
+.editorconfig
+.jshintrc
+.travis.yml
+bower.json
+Gruntfile.js
+package.json
+test/karma.conf.js
+test/spec/controllers/about.js
+test/spec/controllers/main.js
